@@ -1,0 +1,39 @@
+.container{
+  background-color: #946262;
+  width:300px;
+  margin: auto;
+  border: 2px solid rgb(17, 17, 17);
+}
+.addNewTask{
+  border: 2px solid red;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.tasks{
+  display: flex;
+  justify-content: space-between;
+}
+.taskContainer{
+  border:2px solid black;
+  margin: 10px;
+  padding: 0 5px;
+}
+.deleteTaskBtn{
+  border: none;
+  background-color: #d80b0be1;
+  color: #f5f3f3;
+  text-transform: capitalize;
+
+}
+.tasks{
+  margin: 3px;
+  padding: 0 3px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.tasks>p{
+  padding: 0 5px;
+  text-transform: capitalize;
+  font-weight: 600;
+}

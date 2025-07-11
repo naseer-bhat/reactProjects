@@ -1,0 +1,36 @@
+.taskContainer{
+  width: 70%;
+  border: none;
+  display:  flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 2px;
+}
+.taskInput{
+  border:none;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 50%;
+  margin: 0 20px;
+  background:#c0bebc;
+}
+.btn{
+  padding:10px 14px;
+  border: none;
+  background: #92455c;
+  color: antiquewhite;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.todoItem{
+  border:none;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 50%;
+  margin: 0 20px;
+  background:#a7caab;
+  text-transform: capitalize;
+}
